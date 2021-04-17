@@ -1,4 +1,4 @@
-# express-react Template
+# express-react-freedom Template
 
 > Simple Starter SPA Template
 
