@@ -1,6 +1,6 @@
-# express-react-typescript Template
+# express-react Template
 
-> Simple Starter SPA Template with Typescript on both ends
+> Simple Starter SPA Template
 
 > Does not use create-react-app for base configuration freedom
 
@@ -10,16 +10,18 @@ This is a jumping-off project, meant to give a faster start on a new project by 
 
 ### Un-opinionated?
 
-There is no style loader, http library, css framework, or  any other bells and whistles so you can use what you want, how you want it with no push back. 
+There is no style loader, http library, css framework, or any other bells and whistles so you can use what you want, how you want it with no push back.
 
-Which is also the reason I didn't use create-react-app 
+Which is also the reason I didn't use create-react-app
 
 ## Development
+
 Run `npm install` to install all the packages plus all @types so Typescript wont yell at you at the start.
 
 To start the project as a whole, run:
 
 ```
+npm run build
 npm start
 ```
 
@@ -31,7 +33,9 @@ http://localhost:8080/api/{endpoint}
 ```
 
 To run the server separately:
+
 ```
+npm run server:build
 npm run server
 
 //--> Runs on port 3000
@@ -42,11 +46,8 @@ To run only the client:
 ```
 npm run client
 
-
 //--> Runs on port 8080
 ```
-
-
 
 ## Build
 
@@ -57,13 +58,10 @@ dist/ <-- Complied server-side JS code
 public/ <-- Bundled and minified client-side code
 ```
 
-
-
 ## Authors
 
-* **Jose Medina**  [bluelouie](https://github.com/bluelouie)
+-   **Jose Medina** [bluelouie](https://github.com/bluelouie)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
-
