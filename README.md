@@ -1,4 +1,4 @@
-# express-react Template
+# express-react-freedom Template
 
 > Simple Starter SPA Template
 
@@ -7,6 +7,9 @@
 > Un-opinionated
 
 This is a jumping-off project, meant to give a faster start on a new project by taking care of the configuration of the frontend and backend.
+
+> I removed Typscript here because Typescript became a hindrance when trying to do inspired code challenges and/or learning new things.
+Made this repo for those who did not like the fuss.
 
 ### Un-opinionated?
 
